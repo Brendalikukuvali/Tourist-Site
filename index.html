@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<head>
+<title>Home</title>
+<link rel="stylesheet"  href="CSS/main.css">
+<link rel="stylesheet"  href="CSS/normalize.css">
+</head>
+<body>
+ <header>
+    <h2><span><a href="index.html" class="active">Welcome, enjoy the adventure</a></span></h2>
+    <nav>
+      <li><a href="index.html" class="active">Tours</a></li>
+      <li><a href="kenya.html" class="active">Kenya</a></li>
+      <li><a href="uganda.html" class="active">Uganda</a></li>
+    </nav>
+  </header>
+<section class="hero">
+    <div class="background-image" style="background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sa42828d9880ea9d8/image/i6c83cf3b336694c8/version/1594237614/tsavo-national-park-jpg.jpg)"></div>
+    <div class="hero-content-area">
+      <h1>Places Are Fun</h1>
+      <h3>Plan your perfect adventure</h3>
+      <a href="about.html" class="active" class="btn">Contact Us Now</a>
+    </div>
+  </section>
+
+  <section class="destinations">
+    <h3 class="title">Some of our destinations:</h3>
+    <p>Tired of staying indoors?Come along with us on one of our beautiful and amazing adventures. Here are some pictures of the places you might want to visit and have fun.</p>
+    <hr>
+   
+    <ul class="grid">
+      <li class="small" style="background-image: url(https://visitugandanow.com/wp-content/uploads/2018/02/greatla1.jpg);"> Great Lake Museum in Ug</li>
+      <li class="large" style="background-image: url(https://ugandatourismcenter.com/wp-content/uploads/2016/11/Bwindi-Impenetrable-National-Park.jpg);">Bwindi Impenetrable Forests National Park</li>
+      <li class="large" style="background-image: url(https://twenzetu.com/wp-content/uploads/CIBf55sXAAAA7EI.jpg);">Cying Stone. Kakamega</li>
+      <li class="small" style="background-image: url(https://ugandatourismcenter.com/wp-content/uploads/2016/11/Semliki-National-Park.jpg);">Semliki National Park</li>
+      <li class="small" style="background-image: url(https://pbs.twimg.com/media/EXEHYXiWsAAHLkc.jpg);">Mount Kenya</li>
+       <li class="large" style="background-image: url(./Images/Leopard.jpg);">Maasai Mara</li>
+    </ul>
+  </section>
+
+  <section class="packages">
+    <h3 class="title">Tour Packages</h3>
+    <p>We offer a variety of adventures you don't want miss. Whether you've ever visited this site before, or don't even know what an adventure is, we've got the perfect vacation for you.</p>
+    <hr>
+
+    <ul class="grid">
+      <li>
+        <i class="fa fa-compass fa-4x"></i>
+        <h4>Guided Trips</h4>
+        <img src="https://cdn.tourradar.com/s3/tour/645x430/127220_9d9ec185.jpg" width="400", height="250">
+        <p>Looking for the complete experience? Take a tour with one of our experts. They'll show you secrets that you're likely to miss otherwise.</p>
+      </li>
+      <li>
+        <i class="fa fa-camera-retro fa-4x"></i>
+        <h4>Photo Trips</h4>
+        <img src="https://images.huffingtonpost.com/2015-09-17-1442496089-1088601-_MG_1950.jpg" width="400", height="250"></img>
+        <p>Want to experience nature's beauty without all of that annoying exercise? Take a photo tour on one of our mountain buses.</p>
+      </li>
+      <li>
+        <i class="fa fa-bicycle fa-4x"></i>
+        <h4>Racing Trips</h4>
+        <img src="https://4.imimg.com/data4/UR/FD/GLADMIN-29926459/hgtrhtrh-500x500.jpg"></img>
+        <p>If bicycles are more your speed, consider taking a tour through one of our mountain bike paths. We'll provide the bikes, and lunch, too!</p>
+      </li>
+      <li>
+        <i class="fa fa-flag-checkered fa-4x"></i>
+        <h4>Racing Trips</h4>
+        <img src="https://static.oddschecker.com/content/types/TIP/racing-newbury-flat.jpg?v=4054543"></img>
+        <p>Got a competitive spirit? Sign up for one of our mountain marathons! Try to reach the summit before anyone else.</p>
+      </li>
+    </ul>
+  </section>
+
+  
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')">Kenya</button>
+  <button class="btn" onclick="filterSelection('cars')"> Uganda</button>
+  <button class="btn" onclick="filterSelection('people')"> Accommodation</button>
+</div>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="https://www.planetware.com/photos-large/KEN/kenya-mombasa-fort-jesus.jpg" alt="Mountains" style="width:100%">
+      <h4>Fort Jesus</h4>
+      <p>Fort Jesus  is one of the most outstanding and well preserved examples of 16th Portuguese militarry fortification and a landmark in the history. </p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="https://www.planetware.com/photos-large/KEN/kenya-hells-gate-national-park.jpg" alt="Lights" style="width:100%">
+      <h4>Hell's Gate National Park</h4>
+      <p>A hot spot for climbers, Hell's Gate National Park is one of the few parks in Kenya that allows camping and enables you to explore on foot or bicycle.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="https://www.planetware.com/photos-large/KEN/kenya-nairobi-nairobi-national-museum.jpg" alt="Nature" style="width:100%">
+      <h4>National Museum</h4>
+      <p>he National Museums of Kenya (NMK) is a state corporation that manages museums, sites and monuments in Kenya</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <img src="https://www.nationalparks-worldwide.com/eaf/uganda/national-parks/upper-murchison-falls_small.jpg" alt="Car" style="width:100%">
+      <h4>Uganda National Park</h4>
+      <p>The Murchuson Falls are among the highlights of the Uganda National Parks .
+Mountain Gorilla trekking is only safe in Ug, in Bwindi National Park.
+
+ </p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="https://www.nationalparks-worldwide.com/eaf/uganda/kampala/kasubi_tombs_small.jpg" alt="Car" style="width:100%">
+      <h4>Kasubi tombs</h4>
+      <p>The Kasubi tombs are the royal mausoleums located in Kampala and a visit there is one of the 20 tourist attractions in Uganda.</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="https://www.nationalparks-worldwide.com/eaf/uganda/national-parks/rwenzori-mountains-national-park-snow-cap_small.jpg" alt="Car" style="width:100%">
+      <h4>Ruwenzori mountain</h4>
+      <p>The Rwenzori Mountain also known as “Mountains of the Moon” a UNESCO World Heritage Site, lie in western Uganda along the Uganda-Congo border.</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="https://content.r9cdn.net/rimg/himg/25/b5/fe/hotelsdotcom-674779-82e5f4a0_w-887743.jpg?width=1004&crop=true&caller=HotelDetailsPhoto" alt="Car" style="width:100%">
+      <h4>Reinah Tourist Hotel(Uganda)</h4>
+      <p>With a stay at Reinah Tourist Hotel in Fort Portal, you'll be a 5-minute walk from Lugard Monument and 9 minutes by foot from New Tooro Kingdom Palace</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="https://cf.bstatic.com/images/hotel/max1024x768/230/230430072.jpg" alt="Car" style="width:100%">
+      <h4>InterContinental Nairobi(Kenya)</h4>
+      <p>Situated a 30 minute drive from Nairobi National Park, this hotel features a heated outdoor pool, a spa center with a gym and a colonial-style Safari Bar.</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/22163845.jpg?k=fe14e82e2a7492a6376a72f6bc547cca156bc2a35a79b0b9fc640c1ba7bc08ea&o=" alt="Car" style="width:100%">
+      <h4>Maji Beach Boutique Hotel(Mombasa Kenya)</h4>
+      <p>This chic boutique hotel along Diani Beach on the Indian Ocean is 34 km from Mombasa and 47 km from Shimba Hills National Reserve.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<section class="contact">
+    <h3 class="title">Learn More</h3>
+    <p>Want to learn more about our upcoming aventure events? Just sign up for our mailing list. No spam, we promise! Only quality offers, and information to keep you outdoors.</p>
+    <hr>
+    <form>
+      <input type="email" placeholder="Email">
+      <a href="#" class="btn">Subscribe Now</a>
+    </form>
+  </section>
+  
+
+
+<footer>
+  
+  <ul>
+    <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+    <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
+  </ul>
+</footer>
+</body>
+</html>
